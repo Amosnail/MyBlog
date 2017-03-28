@@ -97,7 +97,7 @@
 <meta property="og:description" content="在开发的过程中(git管理)，经常会遇到这样的状况：在Github、Gitlab、Oschina等分别都有账户，为此我们需要为不同的账户生成不同的密钥，那对这些不同的账户和不同的密钥，我们该怎么处理呢？
 
 一、如何生成ssh密钥1.1 设置Git的user.name和user.email为了生成多账户，这里展示的局部的git配置，并不是全局的账户配置(全局配置：在config后面加上–list">
-<meta property="og:updated_time" content="2017-03-28T10:45:14.303Z">
+<meta property="og:updated_time" content="2017-03-28T10:48:16.535Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git多账号配置详细介绍">
 <meta name="twitter:description" content="在开发的过程中(git管理)，经常会遇到这样的状况：在Github、Gitlab、Oschina等分别都有账户，为此我们需要为不同的账户生成不同的密钥，那对这些不同的账户和不同的密钥，我们该怎么处理呢？
@@ -365,9 +365,10 @@
 </ul>
 <h3 id="三、ssh-add增加新的私钥"><a href="#三、ssh-add增加新的私钥" class="headerlink" title="三、ssh-add增加新的私钥"></a>三、ssh-add增加新的私钥</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">//github账号</div><div class="line">$ ssh-add ~/.ssh/github_id_rsa</div><div class="line"></div><div class="line">//gitlab账号</div><div class="line">$ ssh-add ~/.ssh/gitlab_id_rsa</div></pre></td></tr></table></figure>
 <blockquote>
-<p>!!#ff0000(该命令如果报错：Could not open a connection to your authentication agent.无法连接到ssh agent，可执行ssh-agent bash命令后再执行ssh-add命令。)!!</p>
+<font color="red">该命令如果报错：Could not open a connection to your authentication agent.无法连接到ssh agent，可执行ssh-agent bash命令后再执行ssh-add命令。</font>
+
 </blockquote>
-<p>!!#ff0000(上面的配置完成完成，使用命令ssh-add -l可以看到所有的密钥列表,ssh-add的作用主要将密钥添加到 ssh-agent 的高速缓存中，这样在当前会话中就不需要再次输入密码了)!!<br>具体的可以参考<a href="https://wiki.archlinux.org/index.php/SSH_keys_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87" target="_blank" rel="external">SSH Keys</a>)</p>
+<p>上面的配置完成完成，使用命令ssh-add -l可以看到所有的密钥列表,ssh-add的作用主要将密钥添加到 ssh-agent 的高速缓存中，这样在当前会话中就不需要再次输入密码了<br>具体的可以参考<a href="https://wiki.archlinux.org/index.php/SSH_keys_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87" target="_blank" rel="external">SSH Keys</a>)</p>
 
       
     </div>
