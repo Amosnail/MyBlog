@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="android,java," />
 
 
 
@@ -87,16 +87,16 @@
 
 
 
-<meta name="description" content="我要一步一步往上爬">
-<meta property="og:type" content="website">
-<meta property="og:title" content="标签列表">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="Android系统自身已经提供了众多的widgets控件，但有些时候这些自带的控件并不能满足我们的需求，这时候就得需要自定义View。本片文章主要讲一些自定义View的基础-方法和流程的详解。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android自定义View基础-方法和流程的详解">
+<meta property="og:url" content="http://yoursite.com/2015/07/13/android-view-function-and-flow/index.html">
 <meta property="og:site_name" content="Android之旅">
-<meta property="og:description" content="我要一步一步往上爬">
-<meta property="og:updated_time" content="2017-03-28T10:38:55.597Z">
+<meta property="og:description" content="Android系统自身已经提供了众多的widgets控件，但有些时候这些自带的控件并不能满足我们的需求，这时候就得需要自定义View。本片文章主要讲一些自定义View的基础-方法和流程的详解。">
+<meta property="og:updated_time" content="2017-03-31T02:13:37.859Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="标签列表">
-<meta name="twitter:description" content="我要一步一步往上爬">
+<meta name="twitter:title" content="Android自定义View基础-方法和流程的详解">
+<meta name="twitter:description" content="Android系统自身已经提供了众多的widgets控件，但有些时候这些自带的控件并不能满足我们的需求，这时候就得需要自定义View。本片文章主要讲一些自定义View的基础-方法和流程的详解。">
 
 
 
@@ -124,19 +124,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/"/>
+  <link rel="canonical" href="http://yoursite.com/2015/07/13/android-view-function-and-flow/"/>
 
 
 
 
 
-  <title>
-  
-
-  
-    标签列表 | Android之旅
-  
-</title>
+  <title> Android自定义View基础-方法和流程的详解 | Android之旅 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -161,7 +155,7 @@
     
   
 
-  <div class="container sidebar-position-left  ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -246,24 +240,207 @@
             
 
   <div id="posts" class="posts-expand">
-  <header class="post-header">
+    
 
-	<h1 class="post-title" itemprop="name headline">标签列表</h1>
+  
 
+  
+  
+  
 
-</header>
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2015/07/13/android-view-function-and-flow/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="longzhen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Android之旅">
+    </span>
 
     
-    
-      <div class="tag-cloud">
-        <div class="tag-cloud-title">
-            目前共计 4 个标签
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Android自定义View基础-方法和流程的详解
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-07-13T15:15:28+08:00">
+                2015-07-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/android基础/" itemprop="url" rel="index">
+                    <span itemprop="name">android基础</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a class="cloud-tie-join-count" href="/2015/07/13/android-view-function-and-flow/#comments" itemprop="discussionUrl">
+                  <span class="class="post-meta-item-text">评论</span>
+                  <span class="post-comments-count join-count" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2015/07/13/android-view-function-and-flow/" class="leancloud_visitors" data-flag-title="Android自定义View基础-方法和流程的详解">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
         </div>
-        <div class="tag-cloud-tags">
-          <a href="/tags/android/" style="font-size: 30px; color: #111">android</a> <a href="/tags/git/" style="font-size: 12px; color: #ccc">git</a> <a href="/tags/git配置/" style="font-size: 12px; color: #ccc">git配置</a> <a href="/tags/java/" style="font-size: 30px; color: #111">java</a>
-        </div>
-      </div>
+      </header>
     
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p>Android系统自身已经提供了众多的widgets控件，但有些时候这些自带的控件并不能满足我们的需求，这时候就得需要自定义View。本片文章主要讲一些自定义View的基础-方法和流程的详解。</p>
+</blockquote>
+
+      
+    </div>
+
+    <div>
+      
+        
+<div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/images/profile_qrcode.jpg" alt="longzhen wechat" style="width: 200px; max-width: 100%;"/>
+    <div>扫一扫二维码，添加微信好友。</div>
+</div>
+
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/android/" rel="tag"># android</a>
+          
+            <a href="/tags/java/" rel="tag"># java</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/07/11/android-view-base/" rel="next" title="Android自定义View基础-坐标系、弧度、颜色">
+                <i class="fa fa-chevron-left"></i> Android自定义View基础-坐标系、弧度、颜色
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -272,6 +449,12 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+  </div>
+
 
         </div>
         
@@ -516,6 +699,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
