@@ -12,7 +12,7 @@
     <entry>
       <title><![CDATA[Android自定义View基础-坐标系、弧度、颜色]]></title>
       <url>%2F2015%2F07%2F11%2Fandroid-view-base%2F</url>
-      <content type="text"></content>
+      <content type="text"><![CDATA[Android系统自身已经提供了众多的widgets控件，但有些时候这些自带的控件并不能满足我们的需求，这时候就得需要自定义View。本片文章主要讲一些自定义View的基础-坐标系、弧度和角度、颜色。]]></content>
     </entry>
 
     
