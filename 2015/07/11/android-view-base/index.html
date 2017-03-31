@@ -94,7 +94,7 @@
 <meta property="og:site_name" content="Android之旅">
 <meta property="og:description" content="Android系统自身已经提供了众多的widgets控件，但有些时候这些自带的控件并不能满足我们的需求，这时候就得需要自定义View。本片文章主要讲一些自定义View的基础-坐标系、弧度和角度、颜色。">
 <meta property="og:image" content="http://yoursite.com/images/android_custom_view_base_001.jpg">
-<meta property="og:updated_time" content="2017-03-31T03:03:07.116Z">
+<meta property="og:updated_time" content="2017-03-31T03:15:30.365Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android自定义View基础-坐标系、弧度、颜色">
 <meta name="twitter:description" content="Android系统自身已经提供了众多的widgets控件，但有些时候这些自带的控件并不能满足我们的需求，这时候就得需要自定义View。本片文章主要讲一些自定义View的基础-坐标系、弧度和角度、颜色。">
@@ -382,7 +382,8 @@
 <p>Android系统自身已经提供了众多的widgets控件，但有些时候这些自带的控件并不能满足我们的需求，这时候就得需要自定义View。本片文章主要讲一些自定义View的基础-坐标系、弧度和角度、颜色。</p>
 </blockquote>
 <a id="more"></a>
-<h3 id="坐标系"><a href="#坐标系" class="headerlink" title="坐标系"></a>坐标系</h3><p><img src="/images/android_custom_view_base_001.jpg" alt="">{:width=”300”}</p>
+<h3 id="坐标系"><a href="#坐标系" class="headerlink" title="坐标系"></a>坐标系</h3><p>Android中View的坐标系是相对于它的父控件而言的。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">getLeft();    //获取子View左上角距父View左侧的距离</div><div class="line">getTop();     //获取子View左上角距父View顶部的距离</div><div class="line">getBottom();  //获取子View右下角距父View顶部的距离</div><div class="line">getRight();   //获取子View右下角距父View左侧的距离</div></pre></td></tr></table></figure></p>
+<p>形象点，如下图所示：<br><img src="images/android_custom_view_base_001.jpg" alt=""></p>
 
       
     </div>
